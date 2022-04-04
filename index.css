@@ -34,6 +34,7 @@ body {
   display: flex;
   justify-content: center;
   position: relative;
+  height: 93vh;
 }
 
 .pic-ctn > img {
@@ -44,20 +45,20 @@ body {
   position: absolute;
   top: 0;
   opacity: 0;
-  animation: display 15s infinite;
+  animation: display 20s infinite;
 }
 
 img:nth-child(2) {
-  animation-delay: 3s;
+  animation-delay: 4s;
 }
 img:nth-child(3) {
-  animation-delay: 6s;
+  animation-delay: 8s;
 }
 img:nth-child(4) {
-  animation-delay: 9s;
+  animation-delay: 12s;
 }
 img:nth-child(5) {
-  animation-delay: 12s;
+  animation-delay: 16s;
 }
 /* partie nav bar */
 
@@ -65,7 +66,8 @@ ul {
   display: flex;
   align-items: center;
   min-height: 7vh;
-
+  position: sticky;
+  z-index: 99;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -92,7 +94,7 @@ li a {
   position: absolute;
   padding: 15% 2% 0 2%;
   bottom: 0%;
-  height: 45%;
+  height: 45vh;
   background-image: linear-gradient(rgba(255, 0, 0, 0), rgba(0, 0, 0));
 }
 .title > h1 {
@@ -109,4 +111,10 @@ li a {
   font-size: 2rem;
   color: white;
   font-weight: 200;
+}
+main {
+  height: auto;
+}
+.analyse {
+  display: block;
 }
