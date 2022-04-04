@@ -33,7 +33,6 @@ html,
 .pic-ctn {
   display: flex;
   justify-content: center;
-<<<<<<< HEAD
   height: 80%; 
   /* position: relative; */
   /* width: 100vw;
@@ -41,9 +40,6 @@ html,
   margin-top: 15vh; 
   width: 100%; 
   height: 70%; */
-=======
-  position: relative;
->>>>>>> f72fee780e8e0e2f0ee718fcf69c4eb704cfebaf
 }
 
 .pic-ctn > img {
@@ -72,7 +68,6 @@ img:nth-child(5) {
 /* partie nav bar */
 nav{
 
-<<<<<<< HEAD
   background-color: #8FBDD3;
   width: 100%;
   height: 75px;
@@ -116,13 +111,6 @@ nav ul li a:hover{
 
 /* ul {
   height: 20%;
-=======
-ul {
-  display: flex;
-  align-items: center;
-  min-height: 7vh;
-
->>>>>>> f72fee780e8e0e2f0ee718fcf69c4eb704cfebaf
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -165,7 +153,7 @@ li a {
 
 .title > p {
   margin: 0 0 3vh 2vh;
-
+  
   font-size: 2rem;
   color: white;
   font-weight: 200;
