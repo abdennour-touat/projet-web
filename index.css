@@ -31,7 +31,6 @@ body {
 }
 
 .pic-ctn {
-  position: block;
   height: 93vh;
   /* min-height: 100% !important; */
 }
