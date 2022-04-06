@@ -207,6 +207,7 @@ dl > dd {
 }
 .card > img {
   width: 100%;
+  height: 100%;
   border-radius: 20px;
   object-fit: fill;
 }
@@ -233,4 +234,11 @@ dl > dd {
 .container p {
   font-size: 1.1rem;
   padding: 25px;
+  padding-top: 0;
+}
+.container a{
+  color: gold;
+}
+.container a:hover{
+  color: aquamarine;
 }
