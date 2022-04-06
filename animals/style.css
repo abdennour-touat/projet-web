@@ -1,3 +1,54 @@
-.test {
-  color: pink;
+
+.image{
+  width: 100vw;
+  height: 70vh;
+  overflow: hidden;
+  margin-top: 5vh;
+ 
+}
+.image img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.definition{
+  text-align: center;
+  width: 55%;
+  margin-left: 15%;
+ 
+}
+h1{
+  font-weight: 200;
+  font-size: 3rem;
+}
+.definition p{
+  font-size: large;
+  line-height: 25px;
+}
+.table-info{
+  width: 80%;
+  margin: auto;
+  margin-top: 50px;
+
+
+}
+.table-info h1{
+  text-align: center;
+  
+}
+.table-info table{
+  float: right;
+
+  margin-top: 3%;
+  margin-left: 30px;
+}
+.table-info tbody td:nth-child(1){
+  text-align: center;
+  font-weight: bold;
+}
+.table-info tbody tr td{
+  padding: 20px 5px;
+  border-bottom: 1px solid black;
+
 }
