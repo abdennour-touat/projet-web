@@ -250,4 +250,12 @@ footer {
 
 footer p {
   margin: 0%;
+  padding: 25px;
+  padding-top: 0;
+}
+.container a{
+  color: gold;
+}
+.container a:hover{
+  color: aquamarine;
 }
