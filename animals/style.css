@@ -15,13 +15,17 @@
 .definition{
   text-align: center;
   width: 55%;
-  margin-left: 15%;
+  margin-left: 21%;
 }
 h1{
   font-weight: 200;
   font-size: 3rem;
+}
+.info h1{
+  text-align: left;
+}
+.comments h1{
   text-align: center;
-
 }
 .definition p{
   font-size: large;
@@ -47,7 +51,7 @@ h1{
 }
 .info{
   width: 50%;
-  margin-left: 15%;
+  margin-left: 14%;
 }
 .comments form{
   font-family: "CustomFont";

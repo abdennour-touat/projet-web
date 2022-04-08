@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="../index.css" />
-    <title>Giraffes</title>
+    <title>Lions</title>
   </head>
   <body>
     <header>
@@ -24,6 +24,137 @@
         </ul>
       </nav>
     </header>
-    hello world
+      <!-- la section principale -->
+    <main>
+      <!-- La première section contient l'image de l'animal concerné -->
+      <section class="image" id="home">
+        <img
+          src="https://animals.sandiegozoo.org/sites/default/files/2016-09/animals_hero_lions_0.jpg"
+          alt="Lion"
+        />
+      </section>
+      <!-- Dans cette section, vous trouverez une définition sur l'animal, je ne l'ai intentionnellement pas fabriqué pour des raisons esthétiques -->
+      <section class="definition" id="definition">
+        <h1>Lion</h1>
+        <p>
+          It is the second-largest living big cat after the tiger. 
+          Males are unique among the cat species for their thick mane of brown or black hair encircling their 
+          head and neck. The mane darkens with age, and the thicker and darker a mane is the healthier the cat. 
+          Both males and females roar — a sound heard as far as 8 kilometers away.
+        </p>
+      </section>
+      <!-- Une table de certaines informations sur l'animal comme le nom scientifique ... -->
+      <section class="table-info" id="informations">
+        <h1>Global information</h1>
+        <img
+          src="https://www.awf.org/sites/default/files/styles/species_image/public/2020-03/Website_SpeciesPage_Lion02_Challenges.webp?h=29c6c1f6&itok=N2Ct0Kem"
+          alt="Lions"
+        />
+        <table>
+          <tr>
+            <td>SCIENTIFIC NAME</td>
+            <td>PANTHERA LEO</td>
+          </tr>
+          <tr>
+            <td>LIFESPAN</td>
+            <td>10 TO 18 YEARS IN THE WILD. UP TO 30 YEARS IN CAPTIVITY.</td>
+          </tr>
+          <tr>
+            <td>GESTATION</td>
+            <td>AVERAGE ABOUT 109 DAYS</td>
+          </tr>
+          <tr>
+            <td>WEIGHT</td>
+            <td>125 TO 272 KILOGRAMS (277 TO 600 POUNDS)</td>
+          </tr>
+          <tr>
+            <td>HABITAT</td>
+            <td>GRASSY PLAINS AND OPEN WOODLANDS</td>
+          </tr>
+          <tr>
+            <td>PREDATORS</td>
+            <td>HUMANS</td>
+          </tr>
+          <tr>
+            <td>SIZE</td>
+            <td>1.2 METERS AT THE SHOULDER  AND ABOUT 2 TO 3.3 METERS IN LENGTH </td>
+          </tr>
+          <tr>
+            <td>DIET</td>
+            <td>CARNIVOROUS</td>
+          </tr>
+        </table>
+      </section>
+      <!-- Parler plus sur l'animal dans cette section -->
+      <section class="info">
+        <h1>Ecology and behaviour</h1>
+        <p>
+          Lions are at the top of the food chain. The Swahili word for lion, 
+          simba, also means "king," "strong," and "aggressive."
+          Prime habitat for lions is open woodlands, thick grassland, and brush
+          habitat, where there is enough cover for hunting and denning. These areas
+          of grassland habitat also provide food for the herbivores that lions prey upon.
+          Lions differ from the other members of the large cat genus, Panthera—tigers, 
+          leopards, and jaguars. Adult male lions are much larger than females and usually 
+          have an impressive mane of hair around the neck. The color, size, and abundance 
+          of the mane all vary among individuals and with age. The mane’s function is to make 
+          the male look more impressive to females and more intimidating to rival males. 
+          The lion’s thick mane also protects his neck against raking claws during fights with other 
+          males over territory disputes or breeding rights.
+        </p>
+        <p>
+          Lions usually hunt at night, particularly at dusk and dawn, with lionesses doing most of the work.
+          A lion chasing down prey can run the length of a football field in six seconds. Their eyes have a 
+          horizontal streak of nerve cells, which improves their vision following prey across a plain. 
+          Lions have been spotted taking down prey as large as buffalo and giraffes! They may even drag this 
+          heavy prey into thickets of brush to keep other wildlife from getting to it.
+          Lions hunt antelope and other ungulates, baby elephants or rhinos, rodents, reptiles, insects, and 
+          even crocodiles. They also scavenge or steal prey from leopards, cheetahs, hyenas, or African hunting
+          dogs (also called painted dogs), even eating food that has spoiled. Lions digest their food quickly,
+          which allows them to return soon for a second helping after gorging themselves the first time.
+        </p>
+        <p>
+        A lioness gives birth to her cubs in a secluded location away from the pride. At birth, each cub’s coat 
+        is yellowish brown and marked with distinct dark, rosette-shaped spots or, sometimes, stripes. Cubs remain 
+        hidden for four to six weeks as they gain strength, learn to walk, and play with one another and their mother.
+        When they return to the pride, they can nurse from any adult lioness in the pride, not just their own mother. 
+        In fact, the females in a pride often give birth around the same time, which makes for lots of playmates! 
+        Cubs born in a pride are twice as likely to survive as those born to a lioness that is on her own. However, 
+        if a new adult male takes over the pride, he may kill cubs under one year old so that he can father new ones. 
+        Under favorable conditions, a lioness can produce cubs roughly every other year.
+      </p>
+      </section>
+      <!-- Un formulaire pour le lecteur de mettre ses commentaires, il doit taper son nom et son email et un commentaire -->
+      <section class="comments">
+        <h1>Share your thougts with us !</h1>
+        <form action="index.php" method="post">
+          <label for="name"></label>
+          <input id="name" type="text" placeholder="Name" />
+          <label for="email"></label>
+          <input type="email" id="email" placeholder="email" />
+          <label for="comment"></label>
+          <textarea
+            name="comment"
+            id="comment"
+            placeholder="write your comment here"
+            cols="30"
+            rows="10"
+          ></textarea>
+        </form>
+      </section>
+    </main>
+    <!-- footer.. -->
+    <footer id="footer">
+      <ul></ul>
+      <p>
+        <span>Copyright © 2022 Abdenour Touat Abdelhadi Sayoud Society |</span
+        ><span
+          >Copyright © 2019-2022 Abdenour Touat Abdelhadi Sayoud Partners, LLC.
+          All rights reserved</span
+        >
+      </p>
+      <p>Made with ❤️ by Us.</p>
+    </footer>
+    
   </body>
 </html>
