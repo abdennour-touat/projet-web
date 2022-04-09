@@ -233,3 +233,7 @@ footer p {
   padding-top: 0;
 }
 
+.card .container p a:hover{
+  color: aquamarine;
+}
+
