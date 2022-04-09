@@ -80,6 +80,13 @@ input:focus, textarea:focus, select:focus{
 }
 #submit {
   background-color: black;
+  border: 2px solid black;
   color: white;
   cursor: pointer;
+}
+#submit:hover{
+  background-color: white;
+  color: black;
+  border: 2px solid black;
+  transition: 0.3s;
 }
